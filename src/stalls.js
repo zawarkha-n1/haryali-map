@@ -72,16 +72,7 @@ export const stalls = [
 { label: "D33", coords: { x: 375, y: 140 } },
 { label: "D34", coords: { x: 345, y: 140} },
 
-    // { label: "G01", coords: { x: 584, y: 325 } },
-    // { label: "G02", coords: { x: 584, y: 305 } },
-    // { label: "G03", coords: { x: 584, y: 287 } },
-    // { label: "G04", coords: { x: 625, y: 265 } },
-    // { label: "G05", coords: { x: 650, y: 265 } },
-    // { label: "G06", coords: { x: 688, y: 287 } },
-    // { label: "G07", coords: { x: 688, y: 305 } },
-    // { label: "G08", coords: { x: 688, y: 325 } },
-    // { label: "G09", coords: { x: 650, y: 350 } },
-    // { label: "G10", coords: { x: 625, y: 350 } },
+  
   
     { label: "B01", coords: { x: 358, y: 800 } },
     { label: "B02", coords: { x: 359, y: 755 } },
@@ -113,15 +104,7 @@ export const stalls = [
   { label: "B26", coords: { x: 306 , y: 715 } }, // B26 with same y as B03
   { label: "B27", coords: { x: 304  , y: 755 } }, // B27 with same y as B02
   { label: "B28", coords: { x: 303  , y: 800 } },
-    // { label: "B29", coords: { x: 345, y: 276 } },
-    // { label: "B30", coords: { x: 345, y: 258 } },
-    // { label: "B31", coords: { x: 345, y: 238 } },
-    // { label: "B32", coords: { x: 345, y: 222 } },
-    // { label: "B33", coords: { x: 345, y: 204 } },
-    // { label: "B34", coords: { x: 345, y: 188 } },
-    // { label: "B35", coords: { x: 345, y: 170 } },
-    // { label: "B36", coords: { x: 345, y: 153 } },
-  
+
     
 { label: "C01", coords: { x: 230, y: 800 } },
 { label: "C02", coords: { x: 359 - 128, y: 755 } }, // x: 231
@@ -167,31 +150,68 @@ export const stalls = [
     { label: "L07", coords: { x: 310, y: 1000 } },
     { label: "L08", coords: { x: 310, y: 1030} },
   
-    // { label: "N01", coords: { x: 560, y: 60 } },
-    // { label: "N02", coords: { x: 600, y: 58 } },
-    // { label: "N03", coords: { x: 650, y: 56 } },
-    // { label: "N04", coords: { x: 690, y: 54 } },
+    { label: "N01", coords: { x: 560, y: 110 } },
+    { label: "N02", coords: { x: 605, y: 105 } },
+    { label: "N03", coords: { x: 655, y: 100 } },
+    { label: "N04", coords: { x: 695, y: 95 } },
   
-    // { label: "H00", coords: { x: 830, y: 610 } },
-    // { label: "H01", coords: { x: 823, y: 580 } },
-    // { label: "H02", coords: { x: 815, y: 550 } },
-    // { label: "H03", coords: { x: 808, y: 520 } },
-    // { label: "H04", coords: { x: 800, y: 490 } },
-    // { label: "H05", coords: { x: 793, y: 460 } },
-    // { label: "H06", coords: { x: 786, y: 430 } },
-    // { label: "H07", coords: { x: 779, y: 400 } },
-    // { label: "H08", coords: { x: 772, y: 370 } },
-    // { label: "H09", coords: { x: 765, y: 340 } },
-    // { label: "H10", coords: { x: 758, y: 310 } },
-    // { label: "H11", coords: { x: 751, y: 280 } },
-    // { label: "H12", coords: { x: 743, y: 250 } },
-    // { label: "H13", coords: { x: 736, y: 220 } },
-    // { label: "H14", coords: { x: 732, y: 190 } },
-    // { label: "H15", coords: { x: 728, y: 165 } },
-    // { label: "H16", coords: { x: 725, y: 135 } },
-    // { label: "H17", coords: { x: 721, y: 105 } },
-    // { label: "H18", coords: { x: 720, y: 75 } },
+    { label: "H00", coords: { x: 830, y: 1000 } },
+    { label: "H01", coords: { x: 823, y: 950 } },
+    { label: "H02", coords: { x: 815, y: 900 } },
+    { label: "H03", coords: { x: 808, y: 850 } },
+    { label: "H04", coords: { x: 800, y: 800 } },
+    { label: "H05", coords: { x: 793, y: 750 } },
+    { label: "H06", coords: { x: 786, y: 700 } },
+    { label: "H07", coords: { x: 779, y: 650 } },
+    { label: "H08", coords: { x: 772, y: 600 } },
+    { label: "H09", coords: { x: 765, y: 560 } },
+    { label: "H10", coords: { x: 758, y: 510 } },
+    { label: "H11", coords: { x: 751, y: 465 } },
+    { label: "H12", coords: { x: 745, y: 415 } },
+    { label: "H13", coords: { x: 739, y: 370 } },
+    { label: "H14", coords: { x: 733, y: 320 } },
+    { label: "H15", coords: { x: 727, y: 270 } },
+    { label: "H16", coords: { x: 720, y: 220 } },
+    { label: "H17", coords: { x: 713, y: 170 } },
+    { label: "H18", coords: { x: 731, y: 120 } },
   
+
+
+    { label: "G01", coords: { x: 515, y: 240 } },
+    { label: "G02", coords: { x: 515, y: 280 } },
+    { label: "G03", coords: { x: 515, y: 320 } },
+    { label: "G04", coords: { x: 515, y: 360 } },
+    { label: "G05", coords: { x: 513, y: 405 } },
+    { label: "G06", coords: { x: 513, y: 445 } },
+    { label: "G07", coords: { x: 512, y: 485 } },
+    { label: "G08", coords: { x: 512, y: 530 } },
+    { label: "G09", coords: { x: 510, y: 570 } },
+    { label: "G10", coords: { x: 510, y: 610 } },
+    { label: "G11", coords: { x: 510, y: 650 } },
+    { label: "G12", coords: { x: 510, y: 690 } },
+    { label: "G13", coords: { x: 510, y: 730 } },
+    { label: "G14", coords: { x: 508, y: 770 } },
+    { label: "G15", coords: { x: 508, y: 810 } },
+    { label: "G16", coords: { x: 505, y: 850 } },
+    { label: "G17", coords: { x: 505, y: 890} },
+    { label: "G18", coords: { x: 503, y: 930} },
+
+    { label: "G19", coords: { x: 490, y: 1035} },
+    { label: "G20", coords: { x: 525, y: 1035} },
+    { label: "G21", coords: { x: 560, y: 1035} },
+    { label: "G22", coords: { x: 600, y: 1035} },
+    { label: "G23", coords: { x: 640, y: 1035} },
+    { label: "G25", coords: { x: 680, y: 1035} },
+    { label: "G26", coords: { x: 720, y: 1035} },
+    { label: "G27", coords: { x: 760, y: 1035} },
+    { label: "G28", coords: { x: 800, y: 1035} },
+
+    
+
+
+
+
+    //-0-----------------------------------------------------
     
     { label: "Start", coords: { x: 265, y: 930 } },
     { label: "Peg0", coords: { x: 265, y: 860 } },
@@ -235,43 +255,43 @@ export const stalls = [
   { label: "Peg34", coords: { x: 148 + 255, y: 260 } }, // x: 403, same y as Peg11
   { label: "Peg35", coords: { x: 149 + 255, y: 200 } }, // x: 404, same y as Peg12
 
-    // { label: "Peg13", coords: { x: 140, y: 310 } },
-    // { label: "Peg14", coords: { x: 140, y: 380 } },
-  
-    // { label: "Peg15", coords: { x: 140, y: 450 } },
-    // { label: "Peg16", coords: { x: 365, y: 520 } },
-    // { label: "Peg17", coords: { x: 412, y: 520 } },
-    // { label: "Peg18", coords: { x: 412, y: 450 } },
-    // { label: "Peg19", coords: { x: 412, y: 380 } },
-    // { label: "Peg20", coords: { x: 412, y: 310 } },
-    // { label: "Peg21", coords: { x: 412, y: 240 } },
-    // { label: "Peg22", coords: { x: 412, y: 190 } },
-    // { label: "Peg23", coords: { x: 412, y: 120 } },
-    // { label: "Peg24", coords: { x: 360, y: 120 } },
-  
-    // { label: "Peg25", coords: { x: 298, y: 60 } },
-    // { label: "Peg26", coords: { x: 520, y: 60 } },
-    // { label: "Peg27", coords: { x: 520, y: 120 } },
-    // { label: "Peg28", coords: { x: 520, y: 190 } },
-    // { label: "Peg29", coords: { x: 520, y: 240 } },
-    // { label: "Peg30", coords: { x: 640, y: 240 } },
-    // { label: "Peg31", coords: { x: 710, y: 240 } },
-    // { label: "Peg32", coords: { x: 710, y: 310 } },
-    // { label: "Peg33", coords: { x: 710, y: 380 } },
-    // { label: "Peg34", coords: { x: 640, y: 380 } },
-    // { label: "Peg35", coords: { x: 520, y: 380 } },
-    // { label: "Peg36", coords: { x: 520, y: 310 } },
-  
-    // { label: "Peg37", coords: { x: 600, y: 120 } },
-    // { label: "Peg38", coords: { x: 670, y: 120 } },
-    // { label: "Peg39", coords: { x: 690, y: 180 } },
-    // { label: "Peg40", coords: { x: 750, y: 400 } },
-    // { label: "Peg41", coords: { x: 770, y: 480 } },
-    // { label: "Peg42", coords: { x: 790, y: 560 } },
-    //   { label: "Peg37", coords: { x: 560, y: 120 } },
+  { label: "Peg36", coords: { x: 280, y: 100 } }, // x: 404, same y as Peg12
+  { label: "Peg37", coords: { x: 500, y: 100 } },
+  { label: "Peg38", coords: { x: 500, y: 150 } },
+  { label: "Peg39", coords: { x: 660, y: 150 } },
+
+  { label: "Peg40", coords: { x: 675, y: 250 } },
+  { label: "Peg41", coords: { x: 695, y: 350 } },
+  { label: "Peg42", coords: { x: 710, y: 450 } },
+  { label: "Peg43", coords: { x: 725, y: 550 } },
+  { label: "Peg44", coords: { x: 740, y: 650 } },
+  { label: "Peg45", coords: { x: 755, y: 750 } },
+  { label: "Peg46", coords: { x: 770, y: 850 } },
+  { label: "Peg47", coords: { x: 785, y: 950 } },
+
+
+  { label: "Peg48", coords: { x:700, y: 950 } },
+  { label: "Peg49", coords: { x: 620, y: 950 } },
+  { label: "Peg50", coords: { x: 540, y: 950 } },
+
+
+
+  { label: "Peg51", coords: { x: 550, y: 860 } }, // Same y as Peg1
+  { label: "Peg52", coords: { x: 550, y: 800 } }, // Same y as Peg2
+  { label: "Peg53", coords: { x: 550, y: 740 } }, // Same y as Peg3
+  { label: "Peg54", coords: { x: 552, y: 680 } }, // Same y as Peg4
+  { label: "Peg55", coords: { x: 553, y: 620 } }, // Same y as Peg5
+  { label: "Peg56", coords: { x: 554, y: 560 } }, // Same y as Peg6
+  { label: "Peg57", coords: { x: 555, y: 500 } }, // Same y as Peg7
+  { label: "Peg58", coords: { x: 556, y: 440 } }, // Same y as Peg8
+  { label: "Peg59", coords: { x: 557, y: 380 } }, // Same y as Peg9
+  { label: "Peg60", coords: { x: 558, y: 320 } }, // Same y as Peg10
+  { label: "Peg61", coords: { x: 559, y: 260 } }, // Same y as Peg11
+  { label: "Peg62", coords: { x: 560, y: 200 } },  // Same y as Peg12
+  { label: "Peg63", coords: { x: 561, y: 152 } } 
+
   ];
   
-  // Define the allowed graph of movement between pegs and stalls
   export const graph = {
     Start: ["Peg1", "Peg16", "Peg15", "Peg0"],
     Peg0: ["L01", "L02", "L03", "L04", "L05", "L06", "L07", "L08"],
