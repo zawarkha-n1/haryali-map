@@ -23,10 +23,10 @@
   display: block; /* Ensures no inline spacing issues with the image */
 }
 
-/* Style for the event map image */
-.eventmap-image {
+/* Style for the event map canvas */
+.eventmap-canvas {
   position: absolute;
-  top:150px;
+  top: 40px;
   left: 1620px;
   width: 1300px;
   height: auto;
