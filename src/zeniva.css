@@ -1,0 +1,20 @@
+/* zeniva.css */
+.zeniva-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .zeniva-circle {
+    width: 1020px;
+    height: 1020px;
+    background-color: black; /* Black background */
+    border-radius: 50%; /* Make it a circle */
+    border: 5px solid white; /* White border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures any overflowing content is clipped */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Optional shadow */
+  }
+  

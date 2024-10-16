@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+.app-container {
+  height: 100vh; /* Full screen height */
+  width: 100vw; /* Full screen width */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Ensure content doesn't overflow the container */
 }
 
-.App-link {
-  color: #61dafb;
+.image-container {
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height - takes the entire viewport height */
+  position: relative; /* Set relative positioning to allow absolute positioning inside */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container and maintains aspect ratio */
+  display: block; /* Ensures no inline spacing issues with the image */
+}
+
+/* Style for the event map image */
+.eventmap-image {
+  position: absolute;
+  top:150px;
+  left: 1620px;
+  width: 1300px;
+  height: auto;
+  z-index: 10;
+}
+
+.zeniva {
+  position: absolute; /* Position relative to the image container */
+  bottom: 375px; /* Position from the bottom */
+  right: 160px; /* Position from the right */
+  z-index: 20; /* Ensure it's above other elements */
 }
