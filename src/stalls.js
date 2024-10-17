@@ -201,10 +201,10 @@ export const stalls = [
     { label: "G21", coords: { x: 560, y: 1035} },
     { label: "G22", coords: { x: 600, y: 1035} },
     { label: "G23", coords: { x: 640, y: 1035} },
-    { label: "G25", coords: { x: 680, y: 1035} },
-    { label: "G26", coords: { x: 720, y: 1035} },
-    { label: "G27", coords: { x: 760, y: 1035} },
-    { label: "G28", coords: { x: 800, y: 1035} },
+    { label: "G24", coords: { x: 680, y: 1035} },
+    { label: "G25", coords: { x: 720, y: 1035} },
+    { label: "G26", coords: { x: 760, y: 1035} },
+    { label: "G27", coords: { x: 800, y: 1035} },
 
     
 
@@ -345,6 +345,46 @@ export const stalls = [
     Peg12: ["Peg23", "A29", "A30", "A31", "A32", "A33", "A34"],
     Peg35: ["Peg23", "D29", "D30", "D31", "D32", "D33", "D34"],
   
-    Peg36: [],
+    Peg36: ["Peg37"],
+    Peg37: ["Peg38"],
+    Peg38: ["Peg63"],
+
+    Peg63: ["Peg39", "Peg62", "N01", "N02"],
+    Peg39: ["Peg40", "N03", "N04", "H18", "H17", "H16"],
+    Peg62: ["Peg61", "G01"],
+
+    Peg40: ["Peg41", "H15", "H14"],
+    Peg61: ["Peg60", "G02"],
+
+    Peg41: ["Peg42", "H13", "H12"],
+    Peg60: ["Peg59", "G03", "G04"],
+
+    Peg42: ["Peg43", "H11", "H10"],
+    Peg59: ["Peg58", "G05"],
+
+    Peg43: ["Peg44", "H09", "H08"],
+    Peg58: ["Peg57", "G06", "G07"],
+
+    Peg44: ["Peg45", "H07", "H06"],
+    Peg57: ["Peg56", "G08"],
+
+    Peg45: ["Peg46", "H05", "H04"],
+    Peg56: ["Peg55", "G09", "G10"],
+
+    Peg46: ["Peg47", "H03", "H02"],
+    Peg55: ["Peg54", "G11"],
+
+    Peg47: ["Peg48", "H01", "H00", "G27", "G26", "G25"],
+    Peg54: ["Peg53", "G12", "G13"],
+
+    Peg48: ["Peg49", "G24", "G23"],
+    Peg53: ["Peg52", "G14"],
+
+    Peg49: ["Peg50", "G22", "G21"],
+    Peg52: ["Peg51", "G15", "G16"],
+
+    Peg50: ["G20", "G19"],
+    Peg51: ["G17", "G18"],
+   
   };
   
